@@ -2,4 +2,4 @@
 
 <!-- * [仿锤子便签](project/ad_sm.md) -->
 <!-- * [刷题笔记](code/code.md) -->
-* [刷题笔记](assembly language/studyasm.md)
+* [汇编语言](asm/studyasm.md)
