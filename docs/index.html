@@ -28,12 +28,16 @@
       // 封面支持，默认加载的是项目根目录下的\_coverpage.md文件
       coverpage: true,
       // 最大支持渲染的标题层级
-      maxLevel: 5,
+      maxLevel: 2,
       // 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级（建议配置为2-4）
-      subMaxLevel: 4,
+      subMaxLevel: 1,
       // 小屏设备下合并导航栏到侧边栏
       mergeNavbar: true,
       coverpage: true,
+      //设置自动退回
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
       timeUpdater:{
         text:"<div align='right' width='100%' style='color:gray';font-size:16px;margin-top:10px;'>最后更新时间:{docsify-updated}</div>",
         firnatUpdated:"{YYYY}-{MM}-{DD}",
