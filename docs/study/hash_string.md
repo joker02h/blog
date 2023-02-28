@@ -12,12 +12,15 @@
 ---
 字符串哈希有很多种写法，我了解到的模板大致有两种，一种是让它直接溢出，一种是所谓的多项式哈希即 `Polynomial Rolling`算法。
 
-###1. 多项式哈希
+### 1. 多项式哈希
 **哈希公式：**
 
 + $\operatorname{Hash}\left(s_{l, r}\right) = \left(a[r]-a[l-1] * b a s e^{r-l+1}\right) \bmod p$
   
 + $\operatorname{Hash}(s)=\left(\sum_{i=1}^{n} c_{i} * b a s e^{n-i}\right) \bmod p$
+
+
+
 
 **初始化**
 ```cpp
