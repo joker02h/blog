@@ -19,5 +19,5 @@
 **非门真值表**
 
 `不难发现当与非门只有一种输入时，和非门真值表一致。所以我们只需要将单个输入，接在与非门两个输入端就能使与非门两个输入为一致。第一关很简单。`
-![img](https://github.com/joker02h/blog/blob/master/src/2023-02-28221745.jpg)
+![img](https://raw.githubusercontent.com/joker02h/blog/master/src/20230228221745.jpg)
 
